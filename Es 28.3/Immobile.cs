@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Es_28._3
 {
-    internal class Immobili
+    internal class Immobile
     {
             public string CodiceAlfanumerico { get; set; }
             public string Indirizzo { get; set; }
@@ -14,8 +14,8 @@ namespace Es_28._3
             public string Citta { get; set; }
             public int DimensioneImm { get; set; }
 
-            public Immobili() { }
-            public Immobili(string codiceAlfanumerico, string indirizzo, string cap, string citta, int dimensioneImm)
+            public Immobile() { }
+            public Immobile(string codiceAlfanumerico, string indirizzo, string cap, string citta, int dimensioneImm)
             {
                 this.CodiceAlfanumerico = codiceAlfanumerico;
                 this.Indirizzo = indirizzo;

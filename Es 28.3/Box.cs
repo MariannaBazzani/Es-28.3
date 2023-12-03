@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Es_28._3
 {
-    internal class Box : Immobili
+    internal class Box : Immobile
     {
             public int PostiAuto { get; set; }
 

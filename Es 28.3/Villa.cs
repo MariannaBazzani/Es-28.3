@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Es_28._3
 {
-    internal class Ville : Immobili
+    internal class Villa : Immobili
     {
             public int NumeroVani { get; set; }
             public int NumeroBagni { get; set; }
             public int DimensioneGiar { get; set; }
 
-            public Ville() { }
-            public Ville(string codiceAlfanumerico, string indirizzo, string cap, string citta, int dimensioniImm, 
+            public Villa() { }
+            public Villa(string codiceAlfanumerico, string indirizzo, string cap, string citta, int dimensioniImm, 
                 int numeroVani, int numeroBagni, int dimensioniGiar) : base(codiceAlfanumerico, indirizzo, cap, citta, dimensioniImm)
             {
                 this.NumeroVani = numeroVani;

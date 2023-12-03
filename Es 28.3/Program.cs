@@ -58,7 +58,7 @@ namespace Es_28._3
                 int NumeroVani = int.Parse(Console.ReadLine());
                 Console.WriteLine("Numero Bagni: ");
                 int NumeroBagni = int.Parse(Console.ReadLine());
-                Appartamenti appartamento = new Appartamenti(CodiceAlfanumerico, Indirizzo, Cap, Citta, 
+                Appartamento appartamento = new Appartamento(CodiceAlfanumerico, Indirizzo, Cap, Citta, 
                     DimensioneApp, NumeroVani, NumeroBagni);
                 Console.WriteLine($"\nEcco l'appartamento: {appartamento}");
                 Console.ReadLine();
@@ -82,7 +82,7 @@ namespace Es_28._3
                 Console.WriteLine("Dimensione giardino in mq: ");
                 int DimensioneGiar = int.Parse(Console.ReadLine());
 
-                Ville villa = new Ville(CodiceAlfanumerico, Indirizzo, Cap, Citta, DimensioneVil, 
+                Villa villa = new Villa(CodiceAlfanumerico, Indirizzo, Cap, Citta, DimensioneVil, 
                     NumeroVani, NumeroBagni, DimensioneGiar);
                 Console.WriteLine($"\nEcco la villa: {villa}");
                 Console.ReadLine();
